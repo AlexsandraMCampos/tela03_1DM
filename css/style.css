@@ -1,0 +1,143 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:ital@0;1&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    /* tirar a margem que por ventura seja herdada anteriormente*/
+}
+main{
+    margin: auto;
+    background-color: #8adce4;
+    width: 400px;
+    height: 800px;
+    margin-top: 100px;
+}
+
+#barra_top{
+width: 400px;
+height: 5px;
+background-color:#f6db7b;
+margin-bottom: 10px;
+}
+
+#quadrado{
+    width: 25px;
+    height: 25px;
+    background-color: rgba(246, 219, 123, 0.8);
+    border-radius: 5px;
+    margin-top: 40px;
+    margin-left: 35px;
+}
+#inscrevase{
+    font-family: 'roboto', 'sans-serif';
+    font-size: 36px;
+    margin-left: 45px;
+    margin-top: -25px;
+}
+#form_inscrever{
+    width: 340px;
+    height: 650px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    margin: auto;
+    margin-top: 20px;
+    padding: 10px;
+}
+#label{
+    font-size: 18px;
+    font-family: 'roboto','sans-serif';
+    font-weight: 500;
+    padding: 5px;
+    margin-left: 15px;
+}
+#input{
+    border-radius: 5px;
+    width: 300px;
+    height: 35px;
+    border: none;
+    outline: 1px solid #f6db7b;  
+    padding-left: 5px;  
+    margin-bottom: 15px;
+    margin-left: 20px;
+}
+#olho{
+    margin-left: 300px;
+    margin-bottom: 37px;
+    margin-top: -40px;
+    opacity: 0.4;
+
+}
+#label_numero{
+    margin-left: 100px;
+    padding: 5px;
+    font-size: 18px;
+    font-family: 'roboto','sans-serif';
+    font-weight: 500;
+}
+#input_cep{
+    border-radius: 5px;
+    width: 120px;
+    height: 35px;
+    margin-left: 20px;
+    outline: 1px solid #f6db7b;  
+    border: none;
+    padding-left: 5px;  
+    margin-bottom: 10px;
+ 
+}
+#input_numero{
+    width: 150px;
+    height: 35px;
+    border-radius: 5px;
+    border: none;
+    outline: 1px solid #f6db7b;
+    margin-left: 20px;
+    margin-bottom: 15px;
+    padding-left: 5px;
+    
+}
+#select_cidade{
+    font-family: 'roboto', 'sans-serif';
+    border-radius:5px ;
+    width: 300px;
+    height:35px;
+    border: none;
+    outline: 1px solid #f6db7b;
+    padding-left: 5px;
+    margin-left: 20px;
+    margin-bottom: 15px;
+
+}
+#input_checkbox{
+    width: 20px;
+    height: 20px;
+    margin-left: 20px;
+
+}
+
+#p_checkbox{
+    font-family: 'robot', 'sans-serif';
+    font-size: 16px;
+    margin-left: 45px;
+    margin-top: -23px;
+    margin-bottom: 25px;
+}
+#botao_cadastrar{
+    width: 180px;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    background-color: #f6db7b;
+    color: #d89004;
+    padding: 5px;
+    margin-left: 20px;
+    cursor:pointer;
+    font-weight: 600;
+}
+
+    
+
+
+
